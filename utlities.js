@@ -4,11 +4,11 @@
 class StartThunderBlocks {
   getInfo() {
     return {
-      id: 'Thunder Blocks',
+      id: 'thunderblocks',
 
       // `name` is what the user sees in the toolbox
       // It can be changed without breaking projects.
-      name: 'Cool Extension',
+      name: 'Thunder Blocks',
 
       blocks: [
         {
@@ -36,4 +36,4 @@ class StartThunderBlocks {
 
 // Call Scratch.extensions.register to register your extension
 // Make sure to register each extension exactly once
-Scratch.extensions.register(new MyExtension());
+Scratch.extensions.register(new thunderblocks());
